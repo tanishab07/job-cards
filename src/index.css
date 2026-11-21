@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .parent{
@@ -15,7 +16,7 @@
 }
 
 .card {
-  height: 400px;
+  min-height: 400px;
   width: 400px;
   background-color: #f1efef;
   color: #111;
@@ -85,11 +86,11 @@
   border-radius: 15px;
 }
 
-h2 {
+.top h2 {
   margin: 20px 0;
 }
 
-p {
+.top p {
   margin: 10px 0;
   color: #b3b3b4;
 }
@@ -118,33 +119,92 @@ p {
 }
 
 .bottom button {
-  min-width: 380px;
-  padding: 10px;
-  margin: 10px;
-  border-radius: 10px;
-  border: none;
-  background-color: #111;
-  color: #fff;
-  font-weight: 600;
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #111;
+    color: #fff;
+    font-weight: 600;
 }
 
 @media (max-width: 600px) {
+
     .parent {
+        width: 100%;
         padding: 12px;
+        gap: 15px;
         justify-content: center;
-        align-items: flex-start;
-        overflow-x: hidden;
     }
 
     .card {
         width: 100%;
         max-width: 400px;
         height: auto;
-        min-height: 450px;
-        box-sizing: border-box;
+        min-height: 0;
+        padding: 8px;
     }
 
     .top {
-        height: auto;
+        min-height: 0;
+        padding: 12px;
+    }
+
+    .upper img {
+        height: 48px;
+        width: 48px;
+    }
+
+    .heading {
+        flex: 1;
+        min-width: 0;
+        width: auto;
+        margin-left: 10px;
+    }
+
+    .heading h3 {
+        font-size: 16px;
+    }
+
+    .heading h4 {
+        font-size: 12px;
+    }
+
+    .tag {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 8px;
+        margin-top: 15px;
+    }
+
+    .tag h3 {
+        font-size: 12px;
+        padding: 5px 9px;
+    }
+
+    .top h2 {
+        font-size: 20px;
+        margin: 15px 0;
+    }
+
+    .top p {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+
+    .heading2 {
+        padding: 8px 12px;
+    }
+
+    .heading2 h3 {
+        font-size: 24px;
+    }
+
+    .heading2 h4 {
+        font-size: 12px;
+        padding: 7px 12px;
     }
 }
