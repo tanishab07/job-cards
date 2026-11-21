@@ -4,7 +4,7 @@ A Job Cards UI project built using React.js. This project displays multiple job 
 
 ## Preview
 
-![Job Cards Screenshot](screenshot.png)
+![Job Cards Screenshot](Screenshot.png)
 
 ## Features
 
