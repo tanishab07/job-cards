@@ -1,16 +1,52 @@
-# React + Vite
+# Job Cards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Job Cards UI project built using React.js. This project displays multiple job listings with profile images, job titles, tags, descriptions, and hourly payment details.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Job Cards Screenshot](screenshot.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 10 different job post cards
+- Profile images and user details
+- Dynamic job titles and descriptions
+- Three tags for each job post
+- Hourly payment display
+- Reusable React components
+- Clean and minimal UI design
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- CSS
+- Vite
+
+## Getting Started
+
+Clone this repository:
+
+```bash
+git clone https://github.com/tanishab07/job-cards.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Note
+
+All job listings and payment details are sample data created for UI demonstration purposes. They do not represent actual job vacancies.
+
+## Author
+
+Tanisha Bhardwaj
