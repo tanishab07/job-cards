@@ -129,13 +129,22 @@ p {
 }
 
 @media (max-width: 600px) {
-  .parent {
-    justify-content: center;
-    padding: 15px;
-  }
+    .parent {
+        padding: 12px;
+        justify-content: center;
+        align-items: flex-start;
+        overflow-x: hidden;
+    }
 
-  .card {
-    width: 100%;
-    max-width: 400px;
-  }
+    .card {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+        min-height: 450px;
+        box-sizing: border-box;
+    }
+
+    .top {
+        height: auto;
+    }
 }

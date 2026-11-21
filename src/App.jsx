@@ -4,8 +4,8 @@ const App = () => {
 
 const jobPosts = [
   {
-    img: "picture.jpg",
-    name: "Tanisha Bhardwaj",
+    img: "https://i.pravatar.cc/150?img=47",
+    name: "Sophia Williams",
     datePosted: "Posted 5 Days Ago",
     tags: ["UI/UX", "User Interface", "Product Designer"],
     h2: "Looking for a creative UI/UX designer to build your app",
@@ -14,7 +14,7 @@ const jobPosts = [
   },
   {
     img: "https://i.pravatar.cc/150?img=12",
-    name: "Sophia Williams",
+    name: "Mark Williams",
     datePosted: "Posted 2 Days Ago",
     tags: ["ReactJS", "Web Development", "Frontend"],
     h2: "Need a creative frontend developer for our next big project",
